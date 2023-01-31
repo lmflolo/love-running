@@ -23,5 +23,35 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 280%; /* --> relative to the parent element's font size (which in this case is the default) */
+    font-size: 280%; /* --> relative to the parent element's font size (which in this case is the default of the browser) */
+}
+
+/* Navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px; /* text will vertically align itself within its line height */
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
