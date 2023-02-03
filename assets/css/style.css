@@ -284,3 +284,15 @@ footer {
         display: none;
     }
 }
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left; /*makes the menu appear below the logo, which is floated to the left*/
+        float: left; /*makes the menu also float to the left*/
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px; /*produce a balanced space between logo above and main image below*/
+    }
+}
